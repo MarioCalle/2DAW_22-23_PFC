@@ -1,0 +1,77 @@
+h1 {
+    text-align: center;
+}
+.contenedorRegistro {
+    justify-content: center;
+    text-align: center;
+}
+
+.form-register {
+    width: 400px;
+    background: rgb(157, 130, 95);
+    padding: 30px;
+    margin: auto;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: rgb(255, 212, 157);
+  }
+  
+  .form-register h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+  
+  .controls {
+    width: 100%;
+    background-color: burlywood;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid rgb(255, 212, 157);
+    font-family: 'calibri';
+    font-size: 18px;
+    color: white;
+  }
+  
+  #cliente {
+    width: 100%;
+    background-color: burlywood;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid rgb(255, 212, 157);
+    font-family: 'calibri';
+    font-size: 18px;
+    color: white;
+  }
+  
+  .form-register p {
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+  }
+  
+  .form-register a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .form-register a:hover {
+    color: white;
+    text-decoration: underline;
+  }
+  
+  .form-register .botons {
+    width: 100%;
+    background: rgb(255, 212, 157);
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+  }
+
+  .formRegister > .botons {
+    color: gray;
+  }
