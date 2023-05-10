@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 style="text-transform: uppercase;">resrva de hoteles</h1>
+    <form style="display: flex; flex-direction: column; width: 724px;">
+        <fieldset>
+            <legend style="text-transform: uppercase;">formulario de reserva</legend>
+            <h3>>Paso 1. Identificación</h3>    
+            <div style="display: flex; gap: 30px;">
+                <fieldset>
+                    <legend>Datos del Cliente</legend>
+                    <p>Correo electrónico</p>
+                    <input type="text">
+                    <p>Contraseña</p>
+                    <input type="text">
+                    <p>(Longitud mínima 6 caracteres)</p>
+                </fieldset>
+                <fieldset style="display: flex; flex-direction: column; width: 400px;">
+                    <legend>Datos del Cliente</legend>
+                    <p>Nombre de la entidad</p>
+                    <input type="text">
+                    <p>Número de cuenta</p>
+                    <input type="text">
+                </fieldset>
+            </div>
+            <h3>>Paso 2. Datos de la Reserva</h3>
+            <div>
+                <div style="display: flex; flex-wrap: wrap; ">
+                    <fieldset>
+                        <legend>Datos de la habitación</legend>
+                        <textarea name="message" rows="10" cols="30">
+                            Escriba sus comentarios
+                        </textarea>
+                    </fieldset>
+                    <fieldset style="width: 360px; display: flex; flex-direction: column;">
+                        <legend>Información de interés</legend>
+                        <label>Otras peticiones</label>
+                        <textarea name="message" rows="10" cols="30">
+                            Escriba sus comentarios
+                        </textarea>
+                        <div>
+                            <input type="checkbox" checked>
+                            <label>Acepto recibir información publicitaria</label>
+                        </div>
+                    </fieldset>
+                    <fieldset style="width: 250px;">
+                        <legend>Motivo de viaje</legend>
+                        <div>
+                            <input type="radio" id="huey" name="drone" value="huey"
+                                   checked>
+                            <label for="huey">Ocio/Turismo/Vacaciones</label>
+                          </div>
+                      
+                          <div>
+                            <input type="radio" id="dewey" name="drone" value="dewey">
+                            <label for="dewey">Estudio/Trabajo</label>
+                          </div>
+                      
+                          <div>
+                            <input type="radio" id="louie" name="drone" value="louie">
+                            <label for="louie">Familia/Amigos</label>
+                          </div>
+                    </fieldset>
+                    <div style=" width: 390px;display: flex;gap: 20px; flex-direction: column;">
+                        <fieldset>
+                            <legend>Régimen de alojamiento</legend>
+                            <select name="combo">
+                                <option value="1">Opción 1</option>
+                                <option value="2" selected>N/A</option> <!-- Opción por defecto -->
+                                <option value="3">Opción 3</option>
+                              </select>
+                        </fieldset>
+                        <div>
+                            <button>Enviar Pedido</button>
+                            <button>Vaciar Formulario</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </fieldset>
+    </form>
+</body>
+</html>
