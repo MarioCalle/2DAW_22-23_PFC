@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modificación de ofertas</title>
+    <link rel="stylesheet" href="/pfc/css/perfilTrabajadorOfertas.css">
+    <link rel="stylesheet" href="/pfc/css/perfilTrabajadorOpciones.css">
+    <script defer src="/pfc/js/modificacionOfertas.js"></script>
+</head>
+<body>
+    <div class="perfilTrabajador">
+        <h1>Modifica una oferta</h1>
+        <section>
+            <div class="contenedorRegistro">
+                <h2>Añadir una ofera:</h2>
+                    <form action="" method="post" id="formularioAñadir" class="form-register">
+                        <input class="controls" type="text" name="nombre" id="nombre" placeholder="Nombre de la oferta">
+                        <input class="controls" type="text" name="descripcion" id="descripcion" placeholder="Descripción de la oferta">
+                        <input class="controls" type="text" name="codigo" id="codigo" placeholder="Código de la oferta">
+                        <label>Seleccione una imagen de (/pfc/img/ofertas/nuevasOfertas)</label>
+                        <input class="controls" type="file" name="imagen" id="imagen">
+                        <input class="botons" type="submit" style="padding: 10px; background: #FFEBA7; color: rgb(157, 130, 95); border-color: transparent; width: 50%; border-radius: 20px;" value="Añadir nueva oferta">
+                    </form>
+            </div>
+            <div class="contenedorRegistro">
+                <h2>Eliminar una ofera:</h2>
+                    <form action="" method="post" id="formularioEliminar" class="form-register">
+                        <select id="cliente" name="cliente" class="modificarOferta">
+                            <option value="default" selected>Selecciona una oferta</option>
+                        </select>
+                        <input class="botons" type="submit" style="padding: 10px; background: #FFEBA7; color: rgb(157, 130, 95); border-color: transparent; width: 50%; border-radius: 20px;" value="Eliminar nueva oferta">
+                    </form>
+            </div>
+        </section>
+        <a href="/pfc/php/perfilTrabajador.php">Volver</a>
+    </div>
+</body>
+</html>

@@ -1,0 +1,116 @@
+{
+    "ofertas": [
+        {
+            "id": "1",
+            "nombre": "2 x 1 en cafés",
+            "descripcion": "Por la compra de 2 cafés el primero te sale gratis",
+            "codigo": "DK13",
+            "imagen": "/pfc/img/ofertas/2x1.jpg"
+        },
+        {
+            "id": "2",
+            "nombre": "Café gratis",
+            "descripcion": "Por la compra de 3 tes, el primero te sale gratis",
+            "codigo": "GL30",
+            "imagen": "/pfc/img/ofertas/cafeGratis.jpg"
+        },
+        {
+            "id": "3",
+            "nombre": "3 x 1 en refrescos",
+            "descripcion": "Por la compra de 3 Refrescos, el primero te sale gratis",
+            "codigo": "FV45",
+            "imagen": "/pfc/img/ofertas/bebidaGratis.png"
+        },
+        {
+            "id": "4",
+            "nombre": "Lote cafés random",
+            "descripcion": "Este lote está compuesto por 3 cafés aleatorios",
+            "codigo": "ASR9",
+            "imagen": "/pfc/img/ofertas/cafeRandom.jpg"
+        },
+        {
+            "id": "5",
+            "nombre": "lote te random",
+            "descripcion": "Recibe aleatóriamente uno de nuestos tes/infusiones gratis por la compra de 3 tés",
+            "codigo": "DDR0",
+            "imagen": "/pfc/img/ofertas/teRandom.jpg"
+        },
+        {
+            "id": "6",
+            "nombre": "Comida random",
+            "descripcion": "Recibe aleatóriamente uno de nuestos dulces-salados por la compra superior a 10 euros",
+            "codigo": "HPL1",
+            "imagen": "/pfc/img/ofertas/comidaRandom.webp"
+        },
+        {
+            "id": "7",
+            "nombre": "Set lapiceros coffee junior",
+            "descripcion": "Recibe nuestro set de lapiceros de Coffee Junior por la compra de alguna de nuestras mochilas",
+            "codigo": "UWU5",
+            "imagen": "/pfc/img/ofertas/setLapiceros.webp"
+        },
+        {
+            "id": "8",
+            "nombre": "Batido gratis y nuevo",
+            "descripcion": "Recibe uno de nuestros batido los jueves o sábado con la compra de nuestros menús exclusivos",
+            "codigo": "BB56",
+            "imagen": "/pfc/img/ofertas/nuevoBatido.jpg"
+        },
+        {
+            "id": "9",
+            "nombre": "Nos gusta la música",
+            "descripcion": "Recibe 1 més de spotify premiun gratis al llevar a 5 o más personas y consumir café mas apertitivo",
+            "codigo": "POL1",
+            "imagen": "/pfc/img/ofertas/spotifyGratis.png"
+        },
+        {
+            "id": "10",
+            "nombre": "Torre Jenga",
+            "descripcion": "Recibe una torre jenga de madera por compras superiores a 15 euros",
+            "codigo": "JOS3",
+            "imagen": "/pfc/img/ofertas/torreJenga.jpg"
+        },
+        {
+            "id": "11",
+            "nombre": "Sorteo menú",
+            "descripcion": "Por ser nuevo usuario, al comprar tu primer café, estás participando en un sorteo de un menú coffee junior, que incluye 1 café, 3 bocadillos y un batido",
+            "codigo": "9K4F",
+            "imagen": "/pfc/img/ofertas/sorteo.png"
+        },
+        {
+            "id": "12",
+            "nombre": "5 amigos, 5 batidos",
+            "descripcion": "Tu y 4 amigos más podreis disfrutar de un descuento de batidos",
+            "codigo": "Li9U",
+            "imagen": "/pfc/img/ofertas/batido.jpg"
+        },
+        {
+            "id": "13",
+            "nombre": "Te invitamos al cine",
+            "descripcion": "Por canjear 5 productos, te invitamos al cine",
+            "codigo": "LLC1",
+            "imagen": "/pfc/img/ofertas/cine.jpg"
+        },
+        {
+            "id": "14",
+            "nombre": "2 días de pura programación",
+            "descripcion": "Si te apasiona la informática y consumes café a menudo, a tu cuarta visita disfruta de los cursos de openWebinars gratis",
+            "codigo": "P5PL",
+            "imagen": "/pfc/img/ofertas/programacion.jpg"
+        },
+        {
+            "id": "15",
+            "nombre": "Oferta en tartas",
+            "descripcion": "por la compra de 1 tarta, recibe una porción de otro sabor gratis",
+            "codigo": "TRT4",
+            "imagen": "/pfc/img/ofertas/tarta.jfif"
+        },
+        {
+            "id": "16",
+            "nombre": "Café con sabor a menta",
+            "descripcion": "con tu café, disfruta de unos caramelos de menta",
+            "codigo": "M3TP",
+            "imagen": "/pfc/img/ofertas/menta.jpg"
+        }
+    ]
+}
