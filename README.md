@@ -11,7 +11,7 @@ Este repositorio contendrá el proyecto final del curso junto con la memoria. Re
 <ul>
   <li>ponemos la ip del equipo o la palabra locahost (localhost:8080)</li>
 </ul>
-<h2>Datos extra a saber:</h2>
+<h2>Datos extra a saber de los puertos:</h2>
 <ul>
   <li>8080: Nos abre el proyecto</li>
   <li>3000: Ejecuta el apartado del json-server</li>
