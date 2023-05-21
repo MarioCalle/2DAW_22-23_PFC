@@ -1,0 +1,23 @@
+version: '3'
+
+services:
+  tienda_coffeejunior:
+    image: mariocallejulian/php-apache-pfc:1.0
+    restart: always
+    ports:
+      - 8080:80
+
+  basedatos:
+    image: mariocallejulian/basedatos-pfc:1.0
+    restart: always
+    environment:
+      MYSQL_ALLOW_EMPTY_PASSWORD: 'yes'
+      MYSQL_DATABASE: tienda_coffeejunior
+    ports:
+      - 3306:3306
+
+  json-server-container:
+    image: mariocallejulian/json-server-pfc:1.0
+    restart: always
+    ports:
+      - 3000:3000
