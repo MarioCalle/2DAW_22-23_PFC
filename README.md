@@ -16,4 +16,4 @@ Este repositorio contiene el proyecto final del curso realizado en el transcurso
   <li>8080: Nos abre el proyecto</li>
   <li>3000: Ejecuta el apartado del json-server</li>
 </ul>
-<h1>Trabajo realizado por Mario de la Calle Munguia de 2ºDAW</h1>
+<h1>Trabajo realizado por Mario de la Calle Munguia-2ºDAW</h1>
