@@ -9,7 +9,7 @@ Este repositorio contiene el proyecto final del curso junto con el archivo para 
 </ul>
 <h2>¿Como usar el proyecto?</h2>
 <ul>
-  <li>ponemos la ip del equipo o la palabra locahost (localhost:8080)</li>
+  <li>Ponemos la ip del equipo o la palabra locahost (localhost:8080)</li>
 </ul>
 <h2>Datos extra a saber de los puertos:</h2>
 <ul>
