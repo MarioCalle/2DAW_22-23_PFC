@@ -5,7 +5,7 @@ Este repositorio contiene el proyecto final del curso realizado en el transcurso
 <ul>
   <li>Descargamos el docker-compose.yml que se ofrece en el repositorio</li>
   <li>Una vez descargado, nos situamos en la misma ruta que el .yml y abrimos la terminal</li>
-  <li>Ejecutamos el comando 'docker-compose -f {nombre del fichero} up' (el nombre del archivo es docker-compose.yml)</li>
+  <li>Ejecutamos el comando 'docker-compose -f {nombre del fichero} up' (el nombre del archivo es docker-compose.yml). Si lo queremos ejecutar en segundo plano,           basta con agrega la opción ‘-d’ al final y también si se llama ‘docker-compose.yml’ con poner ‘docker-compose up -d’ es suficiente.</li>
 </ul>
 <h2>¿Como usar el proyecto?</h2>
 <ul>
@@ -15,5 +15,6 @@ Este repositorio contiene el proyecto final del curso realizado en el transcurso
 <ul>
   <li>8080: Nos abre el proyecto</li>
   <li>3000: Ejecuta el apartado del json-server</li>
+  <li>3306: Configuración del Mysql (al no llevar entorno gráfico, el navegador no lo detectará)</li>
 </ul>
 <h1>Trabajo realizado por Mario de la Calle Munguia-2ºDAW</h1>
