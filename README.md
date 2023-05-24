@@ -5,7 +5,7 @@ Este repositorio contiene el proyecto final del curso realizado en el transcurso
 <ul>
   <li>Descargamos el docker-compose.yml que se ofrece en el repositorio</li>
   <li>Una vez descargado, nos situamos en la misma ruta que el .yml y abrimos la terminal</li>
-  <li>Ejecutamos el comando 'docker-compose -f {nombre del fichero} up' (el nombre del archivo es docker-compose.yml). Si lo queremos ejecutar en segundo plano,           basta con agrega la opción ‘-d’ al final y también si se llama ‘docker-compose.yml’ con poner ‘docker-compose up -d’ es suficiente.</li>
+  <li>Ejecutamos el comando 'docker-compose -f {nombre del fichero} up' (el nombre del archivo es docker-compose.yml). Si lo queremos ejecutar en segundo plano,           basta con agrega la opción ‘-d’ al final y también si se llama ‘docker-compose.yml’ con poner ‘docker-compose up -d’ es suficiente</li>
 </ul>
 <h2>¿Como usar el proyecto?</h2>
 <ul>
