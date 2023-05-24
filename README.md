@@ -15,6 +15,6 @@ Este repositorio contiene el proyecto final del curso realizado en el transcurso
 <ul>
   <li>8080: Nos abre el proyecto</li>
   <li>3000: Ejecuta el apartado del json-server</li>
-  <li>3306: Configuración del Mysql (al no llevar entorno gráfico, el navegador no lo detectará)</li>
+  <li>3306: Configuración del Mysql (al no llevar entorno gráfico, el navegador no puede ejecutarlo)</li>
 </ul>
 <h1>Trabajo realizado por Mario de la Calle Munguia-2ºDAW</h1>
