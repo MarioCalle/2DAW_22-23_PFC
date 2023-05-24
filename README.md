@@ -1,5 +1,5 @@
 # 2DAW_22-23_PFC
-Este repositorio contiene el proyecto final del curso realizado en el transcurso de marzo a mayo de 2023, mediante el uso de docker-compose.yml. Por si se desea, también se dispondrá del código fuente aunque con las configuraciones del clouding (BBDD y Json-server puestos en el código con la IP '46.183.118.140')
+Este repositorio contiene el proyecto final del curso realizado en el transcurso de marzo a mayo de 2023, mediante el uso de docker-compose.yml. Por si se desea, también se dispondrá del código fuente aunque con las configuraciones del clouding (BBDD y Json-server puestos en el código con la IP '46.183.118.140') y el Powerpoint de la presentación del proyecto
 <h2>¿Como instalar el proyecto?</h2>
 <p>*Préviamente hay que tener linux en nuestro SO (En mi caso debian 11) y posteriormente docker instalado en nuestro Equipo*</p>
 <ul>
